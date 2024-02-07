@@ -17,3 +17,13 @@ function logItems (arr){
 }
 
 logItems(myCourses)
+
+# Items to local storage
+localStorage.setItem(key, value)
+
+# Read data from local storage
+let lastname = localStorage.getItem(key)
+
+# remove data from local storage/all
+localStorage.removeItem(key)
+localStorage.removeItem()

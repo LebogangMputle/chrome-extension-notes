@@ -28,4 +28,8 @@ let lastName = localStorage.getItem(key) - the difference is "let" variable = "g
 localStorage.removeItem(key)
 localStorage.removeItem()
 
+// Save a value to localStorage --> localStorage.setItem("X", "Y") then run to save inputs
+// Delete your code and refresh the page --> let X = localStorage.getItem("x")
+// Fetch your value from localStorage and log it out --> console.log(X)
+
 for example go to learn javascript on scrimba, practise 3!!!

@@ -34,7 +34,7 @@ localStorage.removeItem()
 
 for example go to learn javascript on scrimba, practise 3!!!
 
-# adding an event listener with an array
+# addeventlistener-and-object-in-array
 let data = [
     {
         player: "Jane",

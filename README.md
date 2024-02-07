@@ -19,10 +19,10 @@ function logItems (arr){
 logItems(myCourses)
 
 # Items to local storage
-localStorage.setItem(key, value)
+localStorage.setItem(key, value)  - the difference is "set"item
 
 # Read data from local storage
-let lastname = localStorage.getItem(key)
+let lastName = localStorage.getItem(key) - the difference is "let" variable = "get"item
 
 # remove data from local storage/all
 localStorage.removeItem(key)

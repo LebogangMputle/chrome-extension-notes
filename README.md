@@ -33,3 +33,26 @@ localStorage.removeItem()
 // Fetch your value from localStorage and log it out --> console.log(X)
 
 for example go to learn javascript on scrimba, practise 3!!!
+
+# adding an event listener with an array
+let data = [
+    {
+        player: "Jane",
+        score: 52
+    }, 
+    {
+        player: "Mark",
+        score: 41
+    }
+]
+
+// Fetch the button from the DOM, store it in a variable
+// Use addEventListener() to listen for button clicks
+// Log Jane's score when the button is clicked (via data)
+
+const janeScore = document.getElementById("jane-score")
+
+janeScore.addEventListener("click", function(){
+  console.log(data[0].score)  
+})
+

@@ -27,3 +27,5 @@ let lastName = localStorage.getItem(key) - the difference is "let" variable = "g
 # remove data from local storage/all
 localStorage.removeItem(key)
 localStorage.removeItem()
+
+for example go to learn javascript on scrimba, practise 3!!!
